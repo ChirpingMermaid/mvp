@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Travel List
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  For people who like to travel and what to keep track of where they've been and where they want to go.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  This product will allow you to search through 500px's database of gorgeous photos based on a location search.  You can then click to add a photo of the location you want, to either a "to visit" list or a "visited" list.  You can then easily look at the two lists for inspiration or add more locations to your list. 
 
 ## Problem ##
   > Describe the problem your product solves.
+  Users might have a hard time deciding where to travel to next, or forget some places they've wanted to visit. 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  This allows users who like traveling to get ideas for their next place to travel to and keep a list of locations. 
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  "This product provides beautiful inspiration for where you want to make memories next!"
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  It's very easy to use.  Just search for where you want to go, or where you've been and add it to your list. 
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "Love how easy it is to use."
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Just start typing in a query. 
