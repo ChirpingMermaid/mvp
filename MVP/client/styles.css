@@ -1,0 +1,38 @@
+body {
+    color: white;
+    font-size: 40px;
+    font-family: Impact;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+	vertical-align: middle;
+	height: 17px;
+	font-family: "Arial Black";
+	font-size: 15px;
+}
+
+input[type=checkbox] {
+	/* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  vertical-align: middle;
+	margin-right: 15px;
+	width: auto;
+}
+
+.btn {
+	border-radius: 7px;
+	background: transparent;
+	font-family: "Arial Black";
+	color: white;
+	vertical-align: middle;
+}
+
+
+
+

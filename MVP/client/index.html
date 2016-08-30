@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+	<head>
+		<title>My Travel List</title>
+		<script src='../node_modules/angular/angular.js'></script>
+		<script src='app.js'></script>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body ng-controller='visitCtrl' background={{background}}>
+<!-- 	<body ng-controller='visitCtrl' background='https://drscdn.500px.org/photo/97832855/h%3D1080_k%3D1_a%3D1/74cf0ee476a026cea53a73d69e88ac12'> -->
+	<div>
+		<form>
+			<input type='text' ng-model='location'/>
+			<button class='btn' ng-click='visit()'>visit!</button>
+			<button class='btn' ng-click='visited()'>visited!</button>
+		</form>
+		<!-- <div ng-view></div> -->
+		<!-- <div ng-controller='visitCtrl'>Places to go:</div> -->
+		<div >Places to go:</div>
+			<ul style="list-style-type:none">
+				<li ng-repeat='place in go'>
+					<input type='checkbox' value='place' ng-click='move(place)'/>
+					{{ place }} <button class='btn' ng-click='removeFromGo(place)'>x</button>
+				</li>
+			</ul>
+		<div>Places I've been:</div>
+			<ul>
+				<li ng-repeat='place in went'>
+					{{ place }} <button class='btn' ng-click='removeFromWent(place)'>x</button>
+				</li>
+			</ul>
+	</div>
+	</body>
+</html>
